@@ -46,3 +46,5 @@ struct ArrayStack<T>: Sequence {
 	}
 }
 ```
+
+https://introcs.cs.princeton.edu/java/43stack/
