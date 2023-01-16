@@ -9,7 +9,7 @@ It supports the usual *eunque* and *dequeue* operations, along with methods for 
 public struct Queue<E>: Sequence {
 	private var initCapacity: Int = 8;
 	
-	private var q: [E]
+	private var q: [E]			// resizing is not considered for this implementation
 	private var n: Int
 	private var first: Int
 	
