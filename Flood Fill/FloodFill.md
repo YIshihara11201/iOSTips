@@ -1,7 +1,7 @@
 # Flood Fill implementation
 
 This is an example of Flood Fill implementation for the following problem.\
--> Starting from cell [sr, sc], fill in 4-directionally adjacent cells with the color of starting cell.
+-> Starting from cell [sr, sc], fill in 4-directionally adjacent cells with the color specified as an argument.
 
 ```swift
 func floodFill(_ image: [[Int]], _ sr: Int, _ sc: Int, _ color: Int) -> [[Int]] {
