@@ -25,3 +25,10 @@
 ## Framework
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
 * Cocoa Touch - To be added
+* ActivityKit - To be added
+* WebKit JS - To be added
+* User Notifications - To be added
+
+
+## Backend server
+* Vapor - To be added
