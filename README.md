@@ -18,8 +18,12 @@
 
 ## Design Patterns
 * [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
+* Observer pattern - To be added
+* Composite pattern - To be added
+* Strategy pattern - To be added
 
 ## Architecture
+* MVC - To be added
 * [MVVM](https://github.com/YIshihara11201/iOSTips/blob/main/MVVM/MVVM.md)
 
 ## Framework
