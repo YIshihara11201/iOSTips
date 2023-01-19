@@ -2,6 +2,10 @@
 
 ## Swift Basics
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
+* Concurrency - to be added
+* URLSession - to be added
+* Grand Central Dispatch - to be added
+* ARC - to be added
 
 ## Data Structures
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
