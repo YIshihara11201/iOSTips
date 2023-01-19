@@ -6,6 +6,7 @@
 * URLSession - to be added
 * Grand Central Dispatch - to be added
 * ARC - to be added
+* Offline Storage - to be added
 
 ## Data Structures
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
@@ -23,3 +24,4 @@
 
 ## Framework
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
+* Cocoa Touch - To be added
