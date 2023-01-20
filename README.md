@@ -22,18 +22,19 @@
 * Composite pattern - To be added
 * Strategy pattern - To be added
 
-## Architecture
+## Architectures
 * MVC - To be added
 * [MVVM](https://github.com/YIshihara11201/iOSTips/blob/main/MVVM/MVVM.md)
 
-## Framework
+## Frameworks
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
 * Cocoa Touch - To be added
 * ActivityKit - To be added
 * WebKit JS - To be added
 * User Notifications - To be added
+* Background Tasks - To be added
 
-## API
+## APIs
 * Keychains - To be added
 
 ## Backend server
