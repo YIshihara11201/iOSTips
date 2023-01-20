@@ -33,6 +33,8 @@
 * WebKit JS - To be added
 * User Notifications - To be added
 
+## API
+* Keychains - To be added
 
 ## Backend server
 * Vapor - To be added
