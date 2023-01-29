@@ -92,3 +92,8 @@ Such dependencies take commands but offer no way to access the effects of those 
 
 Analytics includes any system of logging events to a server. 
 We can send events, but there’s no way for the mobile API to ask for the last batch of events you sent.
+
+
+## Technique to isolate singletons from test code
+
+### Add Backdoor (Adapter pattern)
