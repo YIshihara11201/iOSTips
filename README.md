@@ -18,6 +18,7 @@
 
 ## Design Patterns
 * [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
+* Adapter pattern - To be added
 * Observer pattern - To be added
 * Composite pattern - To be added
 * Strategy pattern - To be added
