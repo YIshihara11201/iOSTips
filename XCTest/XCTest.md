@@ -97,3 +97,4 @@ We can send events, but there’s no way for the mobile API to ask for the last 
 ## Technique to isolate singletons from test code
 
 ### Add Backdoor (Adapter pattern)
+-> when you do not own singletons
