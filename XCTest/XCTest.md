@@ -31,6 +31,8 @@ This gives tests the ecosystem they need to verify interactions with UIKit. As p
 These are things we don’t want to have happen while running unit tests. Core data should be set up and populated by test code without using or changing any stored data. We don’t want any network requests.
 
 
+## Bypass AppDelegate
+
 ## Example of Difficult Dependencies
 
 Identify Difficult Dependencies (The ones violate FIRST rules)
