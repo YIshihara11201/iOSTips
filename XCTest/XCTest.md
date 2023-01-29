@@ -98,3 +98,19 @@ We can send events, but there’s no way for the mobile API to ask for the last 
 
 ### Add Backdoor (Adapter pattern)
 -> when you do not own singletons
+In general, you should avoid mixing test code into production code. 
+Conditional compilation makes code hard to read, reason about, and maintain. 
+Dependency Injection Principles, Practices, and Patterns [vS19] describes the singleton backdoor as an anti-pattern called Ambient Context. 
+It’s far preferable to use other means of injection, especially constructor injection
+
+## Subclass and Override
+-> when you do not own singletons
+The idea is to create a subclass of production code that lives only in test code, or a test-specific subclass.
+It gives us a way to override methods that are problematic for testing.
+
+Subclass and Override Method can only be applied to a class that permits subclassing:  
+• Swift doesn’t allow subclassing of structs.  
+• The final modifier prevents classes from having subclasses. Remove it to apply this technique.  
+• Storyboard-based view controllers can’t be subclassed because the story- board stores an instance of a predetermined type.  
+
+### Inject Instances Through Initializers or Properties
