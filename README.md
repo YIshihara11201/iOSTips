@@ -7,6 +7,7 @@
 * Grand Central Dispatch - to be added
 * ARC - to be added
 * Offline Storage - to be added
+* UUID
 
 ## Data Structures
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
