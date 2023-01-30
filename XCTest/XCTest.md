@@ -32,6 +32,30 @@ These are things we don’t want to have happen while running unit tests. Core d
 
 
 ## Bypass AppDelegate
+```swift
+
+import SwiftUI
+
+@main
+struct AppLauncher {
+	static func main() throws {
+		if NSClassFromString("XCTestCase") == nil {
+			EyeDamageApp.main()
+		} else {
+			TestAppDelegate.main()
+		}
+	}
+}
+
+class TestAppDelegate: NSObject, UIApplicationDelegate {
+	
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+		return true
+	}
+}
+
+```
+
 
 ## Example of Difficult Dependencies
 
