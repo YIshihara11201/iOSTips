@@ -133,6 +133,8 @@ func main() {
 
 ```
 
+<br>
+
 *Backdoor applied*
 ```swift
 
@@ -159,12 +161,11 @@ func main() {
 	MySingleton.stubbedInstance = MySingleton()
 	MySingleton.shared.doSomething()
 }
-
 ```
 
 
 *Note*  
-`Use this technique when you do not own singletons.`  
+`Use this technique when you own singletons.`  
 But in general, you should avoid mixing test code into production code.  
 Conditional compilation makes code hard to read, reason about, and maintain.  
 Dependency Injection Principles, Practices, and Patterns [^1] describes the singleton backdoor as an anti-pattern called Ambient Context.  
@@ -172,15 +173,76 @@ It’s far preferable to use other means of injection, especially constructor in
 
 <br>
 
-## Subclass and Override
--> when you do not own singletons
-The idea is to create a subclass of production code that lives only in test code, or a test-specific subclass.
+### Subclass and Override (add a layer of indirection around singleton)
+
+*Before Subclassing and Overriding*
+```swift
+class Act {
+	static let shared = Act()
+	func doSomething() {}
+}
+
+class ExampleVC: UIViewController {
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		Act.doSomething()
+	}
+	
+}
+
+class ExampleVCTests: XCTestCase {
+	
+	func test_viewDidAppear() {
+		let sut = ExampleVC() // this contains singleton, violates isolation principle
+		sut.loadViewIfNeeded()
+		sut.viewDidAppear(false)
+	}
+	
+}
+```
+<br>
+
+*Subclassing and Overriding applied*
+```swift
+class Act {
+	static let shared = Act()
+	func doSomething() {}
+}
+
+
+class TestableOverrideVC: ExampleVC {
+	
+	override func act() -> Act {
+		Act()
+	}
+	
+}
+
+
+class OverrideVCTests: XCTestCase {
+	
+	func test_viewDidAppear() {
+		let sut = TestableOverrideVC() // singleton is isolated now
+		sut.loadViewIfNeeded()
+		sut.viewDidAppear(false)
+	}
+	
+}
+```
+
+*Note*  
+`Use this technique when do not you own singletons.`  
+
+The idea is to create a subclass of production code that lives only in test code, or a test-specific subclass.  
 It gives us a way to override methods that are problematic for testing.
 
 Subclass and Override Method can only be applied to a class that permits subclassing:  
 • Swift doesn’t allow subclassing of structs.  
 • The final modifier prevents classes from having subclasses. Remove it to apply this technique.  
 • Storyboard-based view controllers can’t be subclassed because the story- board stores an instance of a predetermined type.  
+
+<br>
 
 ### Inject Instances Through Initializers or Properties
 
