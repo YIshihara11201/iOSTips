@@ -122,4 +122,4 @@ Difficult dipendencies -> ones violate `FIRST` principle
 <br>
 
 
-[solate Dependencies from test code](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest_Isolate_Dependencies.md)
+## [Isolate Dependencies from test code](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest_Isolate_Dependencies.md)
