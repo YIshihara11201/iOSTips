@@ -19,11 +19,11 @@
 * [Flood Fill](https://github.com/YIshihara11201/iOSTips/blob/main/Flood%20Fill/FloodFill.md)
 
 ## Design Patterns
-* [Adapter pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
-* Composite pattern - To be added
+* [Adapter Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
+* Composite Pattern - To be added
 * [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
-* [Observer pattern](https://github.com/YIshihara11201/iOSTips/tree/main/Observer%20Pattern)
-* Strategy pattern - To be added
+* [Observer Pattern](https://github.com/YIshihara11201/iOSTips/tree/main/Observer%20Pattern)
+* Strategy Pattern - To be added
 
 ## Architectures
 * [MVC](https://github.com/YIshihara11201/iOSTips/tree/main/MVC/MVC.md)
