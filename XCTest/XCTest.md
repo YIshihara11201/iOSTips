@@ -112,7 +112,7 @@ Difficult dipendencies -> ones violate `FIRST` principle
 
 <br>
 
-## Technique to isolate difficult dependencies from test code
+## Technique to isolate difficult dependencies from test code (Singleton)
 
 ### Add Backdoor (use conditional compilation)
 
@@ -240,12 +240,39 @@ It gives us a way to override methods that are problematic for testing.
 Subclass and Override Method can only be applied to a class that permits subclassing:  
 • Swift doesn’t allow subclassing of structs.  
 • The final modifier prevents classes from having subclasses. Remove it to apply this technique.  
-• Storyboard-based view controllers can’t be subclassed because the story- board stores an instance of a predetermined type.  
+• Storyboard-based view controllers can’t be subclassed because the storyboard stores an instance of a predetermined type.  
 
 <br>
 
-### Inject Instances Through Initializers or Properties
+### Inject Instances Through Properties
 
+*Dependency injection(through property) applied*
+```swift
+class InstancePropertyVC: UIViewController {
+	lazy var act = Act.shared
+
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		act.doSomething()
+	}
+	
+}
+
+
+class InstancePropertyVCTests: XCTestCase {
+	
+	func test_viewDidAppear() {
+		let sut = InstancePropertyVC()
+		sut.act = Act() // singleton is isolated now
+		sut.loadViewIfNeeded()
+		sut.viewDidAppear(false)
+	}
+	
+}
+
+```
+
+## Technique to isolate difficult dependencies from test code (Persistence, Network Request)
 
 
 
