@@ -1,14 +1,14 @@
 # iOS learning notes
 
 ## Swift Basics
-* [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
-* Concurrency - to be added
-* URLSession - to be added
-* Grand Central Dispatch - to be added
+
 * ARC - to be added
+* Concurrency - to be added
+* Grand Central Dispatch - to be added
 * Offline Storage - to be added
+* [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
+* [URLSession](https://github.com/YIshihara11201/iOSTips/tree/main/URLSession/URLSession.md)
 * UUID - to be addded
-* URLSessionDataTask - to be addded
 
 ## Data Structures
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
