@@ -235,6 +235,7 @@ final class ExampleViewModelTests: XCTesst {
 <br>
 
 To be added  
+explanation for utilizing Wrapper class (Adapter pattern) to replace built in method in Data class -> write method
 explanation for asynchronous method tests (dataTask, completion handler)
 
 [^1]: Steven van Deursen and Mark Seemann. Dependency Injection Principles, Practices, and Patterns. Manning Publications Co., Greenwich, CT, 2019.
