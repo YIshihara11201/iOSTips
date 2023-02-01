@@ -112,14 +112,65 @@ Difficult dipendencies -> ones violate `FIRST` principle
 
 <br>
 
-## Technique to isolate singletons from test code
+## Technique to isolate difficult dependencies from test code
 
-### Add Backdoor (Adapter pattern)
--> when you do not own singletons
-In general, you should avoid mixing test code into production code. 
-Conditional compilation makes code hard to read, reason about, and maintain. 
-Dependency Injection Principles, Practices, and Patterns [vS19] describes the singleton backdoor as an anti-pattern called Ambient Context. 
-It’s far preferable to use other means of injection, especially constructor injection
+### Add Backdoor (use conditional compilation)
+
+*Before Adding Backdoor*
+```swift
+
+class Singleton {
+	
+	static let shared = Singleton()
+	
+	func doSomething() {}
+	
+}
+
+func main() {
+	Singleton.shared.doSomething()
+}
+
+```
+
+*Backdoor applied*
+```swift
+
+class MySingleton {
+	static var shared: MySingleton {
+#if DEBUG
+		if let stubbedInstance = stubbedInstance {
+			return stubbedInstance
+		}
+#endif
+		return instance
+	}
+	
+#if DEBUG
+	static var stubbedInstance: MySingleton?
+#endif
+	
+	static let instance = MySingleton()
+	
+	func doSomething() {}
+}
+
+func main() {
+	MySingleton.stubbedInstance = MySingleton()
+	MySingleton.shared.doSomething()
+}
+
+```
+
+
+*Note*  
+`Use this technique when you do not own singletons.`  
+But in general, you should avoid mixing test code into production code.  
+Conditional compilation makes code hard to read, reason about, and maintain.  
+Dependency Injection Principles, Practices, and Patterns [^1] describes the singleton backdoor as an anti-pattern called Ambient Context.  
+It’s far preferable to use other means of injection, especially constructor injection.  
+
+<br>
 
 ## Subclass and Override
 -> when you do not own singletons
@@ -132,3 +183,8 @@ Subclass and Override Method can only be applied to a class that permits subclas
 • Storyboard-based view controllers can’t be subclassed because the story- board stores an instance of a predetermined type.  
 
 ### Inject Instances Through Initializers or Properties
+
+
+
+
+[^1]: Steven van Deursen and Mark Seemann. Dependency Injection Principles, Practices, and Patterns. Manning Publications Co., Greenwich, CT, 2019.
