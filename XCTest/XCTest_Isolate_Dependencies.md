@@ -2,7 +2,7 @@
 
 <br>
 
-## Add Backdoor (use conditional compilation)
+## Add Backdoor (use conditional compilation to replace singleton)
 
 *Before Adding Backdoor*
 ```swift
