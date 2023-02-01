@@ -11,31 +11,33 @@
 * UUID - to be addded
 
 ## Data Structures
-* [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
-* [Queue](https://github.com/YIshihara11201/iOSTips/blob/main/Queue/Queue.md)
 * [Graph](https://github.com/YIshihara11201/iOSTips/blob/main/Graph/Graph.md)
+* [Queue](https://github.com/YIshihara11201/iOSTips/blob/main/Queue/Queue.md)
+* [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
 
 ## Algorithms
 * [Flood Fill](https://github.com/YIshihara11201/iOSTips/blob/main/Flood%20Fill/FloodFill.md)
 
 ## Design Patterns
-* [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
-* Adapter pattern - To be added
-* Observer pattern - To be added
+* [Adapter pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
 * Composite pattern - To be added
+* [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
+* Observer pattern - To be added
 * Strategy pattern - To be added
 
 ## Architectures
-* MVC - To be added
+* [MVC](https://github.com/YIshihara11201/iOSTips/tree/main/MVC/MVC.md)
 * [MVVM](https://github.com/YIshihara11201/iOSTips/blob/main/MVVM/MVVM.md)
 
 ## Frameworks
-* [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
-* Cocoa Touch - To be added
+
 * ActivityKit - To be added
-* WebKit JS - To be added
+* [Background Tasks](https://github.com/YIshihara11201/iOSTips/blob/main/Background%20Tasks/BackgroundTasks.md)
+* Cocoa Touch - To be added
+* [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
 * User Notifications - To be added
-* Background Tasks - To be added
+* WebKit JS - To be added
+* [XCTest](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest.md)
 
 ## APIs
 * Keychains - To be added
