@@ -2,13 +2,13 @@
 
 ## Swift Basics
 
-* ARC - to be added
-* Concurrency - to be added
-* Grand Central Dispatch - to be added
-* Offline Storage - to be added
+* [ARC](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
+* [Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Concurrency/Concurrency.md)
+* [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
+* [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
 * [URLSession](https://github.com/YIshihara11201/iOSTips/tree/main/URLSession/URLSession.md)
-* UUID - to be addded
+* [UUID](https://github.com/YIshihara11201/iOSTips/blob/main/UUID/UUID.md)
 
 ## Data Structures
 * [Graph](https://github.com/YIshihara11201/iOSTips/blob/main/Graph/Graph.md)
@@ -22,7 +22,7 @@
 * [Adapter pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
 * Composite pattern - To be added
 * [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
-* Observer pattern - To be added
+* [Observer pattern](https://github.com/YIshihara11201/iOSTips/tree/main/Observer%20Pattern)
 * Strategy pattern - To be added
 
 ## Architectures
@@ -31,16 +31,16 @@
 
 ## Frameworks
 
-* ActivityKit - To be added
+* [ActivityKit](https://github.com/YIshihara11201/iOSTips/blob/main/ActivityKit/ActivityKit.md)
 * [Background Tasks](https://github.com/YIshihara11201/iOSTips/blob/main/Background%20Tasks/BackgroundTasks.md)
-* Cocoa Touch - To be added
+* [Cocoa Touch](https://github.com/YIshihara11201/iOSTips/tree/main/Cocoa%20Touch)
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
-* User Notifications - To be added
+* [User Notifications](https://github.com/YIshihara11201/iOSTips/blob/main/User%20Notifications/UserNotifications.md)
 * WebKit JS - To be added
 * [XCTest](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest.md)
 
 ## APIs
-* Keychains - To be added
+* [Keychains](https://github.com/YIshihara11201/iOSTips/blob/main/Keychain/Keychain.md)
 
-## Backend server
-* Vapor - To be added
+## Server-side
+* [Vapor](https://github.com/YIshihara11201/iOSTips/blob/main/Vapor/Vapor.md)
