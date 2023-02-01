@@ -232,7 +232,9 @@ final class ExampleViewModelTests: XCTesst {
 
 ```
 
-To be added
+<br>
+
+To be added  
 explanation for test for asynchronous method (dataTask, completion handler)
 
 [^1]: Steven van Deursen and Mark Seemann. Dependency Injection Principles, Practices, and Patterns. Manning Publications Co., Greenwich, CT, 2019.
