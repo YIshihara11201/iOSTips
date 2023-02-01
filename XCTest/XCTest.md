@@ -2,20 +2,17 @@
 
 ## FIRST principle
 
-F for Fast 
-- A unit test that takes 1/10th of a second to run is a slow unit test.  
+F for Fast:    `A unit test that takes 1/10th of a second to run is a slow unit test.`
 
-I for Isolated 
-- Neither function has any side effects that would persist beyond the test run.  
+I for Isolated:    `Neither function has any side effects that would persist beyond the test run.`
 
-R for Repeatable 
-- Calling a function with the same input will always yield the same output.  
+R for Repeatable:    `Calling a function with the same input will always yield the same output.`
 
-S for self-verifying
-- This means using assertions to pass or fail without human verification.  
+S for self-verifying:    `This means using assertions to pass or fail without human verification.`
 
-T for timely
-- This means tests have more value when written before the production code.  
+T for timely:    `This means tests have more value when written before the production code.`
+
+<br>
 
 ## Test Launch Sequence P55
 
@@ -24,14 +21,24 @@ T for timely
 3. Launch the app in the simulator.
 4. Run the tests.
 5. Terminate the app.
-This gives tests the ecosystem they need to verify interactions with UIKit. As part of step 3, UIKit gives the app delegate a chance to set up anything the app needs to launch. This may include things like the following:
-• Setting up core data
-• Sending an app-specific key to an analytics service
-• Sending a request to fetch data it needs before going to the first screen
-These are things we don’t want to have happen while running unit tests. Core data should be set up and populated by test code without using or changing any stored data. We don’t want any network requests.
 
+This gives tests the ecosystem they need to verify interactions with UIKit.  
+As part of step 3, `UIKit gives the app delegate a chance to set up anything the app needs to launch`.  
+This may include things like the following:
+- Setting up core data
+- Sending an app-specific key to an analytics service
+- Sending a request to fetch data it needs before going to the first screen
+
+These are things we don’t want to have happen while running unit tests. 
+
+-> appDelgate should be bypassed to prevent unintended side-effect
+
+<br>
 
 ## Bypass AppDelegate
+
+https://mokacoding.com/blog/prevent-swiftui-app-loading-in-unit-tests/
+
 ```swift
 
 import SwiftUI
@@ -56,8 +63,10 @@ class TestAppDelegate: NSObject, UIApplicationDelegate {
 
 ```
 
+<br>
 
 ## Example of Difficult Dependencies
+
 
 singleton -> あるテストで発生したシングルトンメソッドの副作用が後続のテストにも影響を与える -> テストの条件が常に一定であることを保証できなくなる
 
