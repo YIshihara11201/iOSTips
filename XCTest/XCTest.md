@@ -1,16 +1,25 @@
 # XCTest
 
+<br>
+
 ## FIRST principle
 
-F for Fast:    `A unit test that takes 1/10th of a second to run is a slow unit test.`
+Tests must follow *FIRST* principle  
 
-I for Isolated:    `Neither function has any side effects that would persist beyond the test run.`
+**Fast**  
+&nbsp;&nbsp; Tests that `takes 1/10th of a second to run is a slow` unit test.
 
-R for Repeatable:    `Calling a function with the same input will always yield the same output.`
+**Isolated**  
+&nbsp;&nbsp; Tests `have no side effects that would persist beyond the test run`.
 
-S for self-verifying:    `This means using assertions to pass or fail without human verification.`
+**Repeatable**  
+&nbsp;&nbsp; Calling a function with `the same input will always yield the same output`.
 
-T for timely:    `This means tests have more value when written before the production code.`
+**Self-verifying**  
+&nbsp;&nbsp; This means using assertions to `pass or fail without human verification`.
+
+**Timely**  
+&nbsp;&nbsp; Tests `have more value when written before the production code`.
 
 <br>
 
@@ -23,6 +32,7 @@ T for timely:    `This means tests have more value when written before the produ
 5. Terminate the app.
 
 This gives tests the ecosystem they need to verify interactions with UIKit.  
+
 As part of step 3, `UIKit gives the app delegate a chance to set up anything the app needs to launch`.  
 This may include things like the following:
 - Setting up core data
@@ -31,7 +41,7 @@ This may include things like the following:
 
 These are things we don’t want to have happen while running unit tests. 
 
--> appDelgate should be bypassed to prevent unintended side-effect
+-> * should be bypassed to prevent unintended side-effect
 
 <br>
 
@@ -110,3 +120,6 @@ Difficult dipendencies -> ones violate `FIRST` principle
 	• Playing audio or video  
 
 <br>
+
+
+[solate Dependencies from test code](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest_Isolate_Dependencies.md)
