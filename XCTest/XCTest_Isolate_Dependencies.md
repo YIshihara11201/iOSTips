@@ -1,4 +1,4 @@
-# Techniques to isolate difficult dependencies from test code
+# Techniques to isolate dependencies from test code
 
 <br>
 
