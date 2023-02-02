@@ -41,7 +41,7 @@ This may include things like the following:
 
 These are things we don’t want to have happen while running unit tests. 
 
--> * should be bypassed to prevent unintended side-effect
+-> AppDelegate should be bypassed to prevent unintended side-effect
 
 <br>
 
