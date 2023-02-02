@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
    ...
     UNUserNotificationCenter.current().delegate = self // delegate AppDelegate to UNUserNotificationCenterDelegate
-    center.requestAuthorization(options: [.badge, .alert, .sound]) { (_: Bool, _: Error?) in } // enable user notifications
+    UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .alert, .sound]) { (_: Bool, _: Error?) in } // enable user notifications
     Task {
       await MainActor.run {
         application.registerForRemoteNotifications() // register to APNs
