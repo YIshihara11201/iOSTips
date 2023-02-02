@@ -1,8 +1,10 @@
 # Stack implementation
 
-A stack is a collection that is based on the last-in-first-out (LIFO) policy. '
-By tradition, we name the stack insert method push() and the stack remove operation pop(). We also include a method to test whether the stack is empty
+A stack is a collection that is based on the last-in-first-out (LIFO) policy.  
+By tradition, we name the stack insert method push() and the stack remove operation pop().  
+We also include a method to test whether the stack is empty. 
 
+<br>
 
 ```swift
 
