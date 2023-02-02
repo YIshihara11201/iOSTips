@@ -3,8 +3,8 @@
 ## Swift Basics
 
 * [ARC](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
-* [Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Concurrency/Concurrency.md)
 * [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
+* [Modern Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Concurrency/Concurrency.md)
 * [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
 * [URLSession](https://github.com/YIshihara11201/iOSTips/tree/main/URLSession/URLSession.md)
