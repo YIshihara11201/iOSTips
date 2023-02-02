@@ -2,6 +2,14 @@
 
 <br>
 
+- [Add Backdoor](#add-backdoor-use-conditional-compilation-to-replace-singleton)
+- [Subclassing and Overriding](#subclass-and-override-add-a-layer-of-indirection-around-singleton)
+- [Inject instances through properties](#inject-instances-through-properties)
+- [Extract protocol and inject Fake object](#extract-protocol-and-inject-fake-object)
+- [Wrapper class](#wrapper-class)
+
+<br>
+
 ## Add Backdoor (use conditional compilation to replace singleton)
 
 *Before Adding Backdoor*
@@ -220,11 +228,11 @@ class ExampleViewModel: ObservableObject {
 
 final class ExampleViewModelTests: XCTesst {
 
-  private var sut: AppStateViewModel!
+  private var sut: ExampleViewModel!
   
   override func setUpWithError() throws {
     try super.setUpWithError()
-    sut = AppStateViewModel()
+    sut = ExampleViewModel()
     sut.userDefaults = FakeUserDefaults()
   }
   
@@ -234,8 +242,117 @@ final class ExampleViewModelTests: XCTesst {
 
 <br>
 
-To be added  
-explanation for utilizing Wrapper class (Adapter pattern) to replace built in method in Data class -> write method
-explanation for asynchronous method tests (dataTask, completion handler)
+
+## Wrapper class
+
+Built-in methods like `Data().write(url: URL)` have persisting side-effect throughout Tests.  
+Suppose that Data() is an output of another built-in method, it cannot be replaced with protocol-type object (mentioned above).  
+In this situation, using wrapper class, you can add indirection layer and seperate dependencies.  
+
+
+*Before removing dependency*
+```swift
+
+struct SomeViewModel: ObservableObject {
+  static func getData() -> Data {
+    ...
+  }
+  
+  static func write(url: URL) throws {
+    let data = getData()
+    try data.write(to: url) // this has side effect to test environment, which violates FIRST principle (I for Isolation)
+  }
+}
+
+// Test code
+final class SomeViewModelTests: XCTesst {
+
+  private var sut: SomeViewModel!
+  
+  override func setUpWithError() throws {
+    try super.setUpWithError()
+    sut = SomeViewModel()
+  }
+  
+  ...
+  
+  func test_write() throws {
+    try sut.write(url: URL(fileURLWithPath: "dummy_path")) // this is not testable as having persisting side-effect
+  }
+  
+}
+
+```
+
+*Introduce Wrapper class for Data class*
+```swift
+
+protocol DataHandlerProtocol {
+  func write(data: Data, url: URL, options: Data.WritingOptions) throws
+}
+
+class DataHandler: DataHandlerProtocol {
+  func write(data: Data, url: URL, options: Data.WritingOptions) throws {
+    try data.write(to: url, options: options)
+  }
+}
+
+```
+
+*declare Wrapper class in production code*
+```swift
+
+struct SomeViewModel: ObservableObject {
+  static var dataHandler: DataHandlerProtocol = DataHandler()
+  
+  static func getData() -> Data {
+    ...
+  }
+  
+  static func saveFile(url: URL) throws {
+    let data = getData()
+    try dataHandler.write(data: data, url: fileURL, options: []) // use wrapper object
+  }
+}
+
+```
+
+*Create Fake Wrapper class and inject to test code*
+```swift
+
+class FakeDataHandler: DataHandlerProtocol {
+  var files: [String: Data] = [:] // use local variable as a storage, instead of persisting store
+  
+  func write(data: Data, url: URL, options: Data.WritingOptions) throws { 
+    files[url.absoluteString] = data
+  }	
+}
+
+// Test code
+final class SomeViewModelTests: XCTesst {
+
+  private var sut: SomeViewModel!
+  
+  override func setUpWithError() throws {
+    try super.setUpWithError()
+    sut = SomeViewModel()
+    sut.dataHandler = FakeDataHandler() // dependency is removed!
+  }
+ 
+  ...
+  
+  func test_write() throws {
+    let data = sut.getData()
+    try sut.write(data: data, url: URL(fileURLWithPath: "dummy_path"), options: [])
+
+    XCTAssertEqual(sut.files.first, data)
+  }
+  
+}
+
+```
+
+<br>
+
 
 [^1]: Steven van Deursen and Mark Seemann. Dependency Injection Principles, Practices, and Patterns. Manning Publications Co., Greenwich, CT, 2019.
