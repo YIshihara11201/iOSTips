@@ -2,17 +2,19 @@
 
 ## Swift Basics
 
-* [Automatic Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
-* [Autorelease](https://github.com/YIshihara11201/iOSTips/blob/main/Autorelease/Autorelease.md)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
-* [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Modern%20Concurrency/ModernConcurrency.md)
 * [NSRunLoop]
 * [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
-* [Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/Reference%20Counting/ReferenceCounting.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
 * [URLSession](https://github.com/YIshihara11201/iOSTips/tree/main/URLSession/URLSession.md)
 * [UUID](https://github.com/YIshihara11201/iOSTips/blob/main/UUID/UUID.md)
+
+## Objective-C Basics
+* [Automatic Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
+* [Autorelease](https://github.com/YIshihara11201/iOSTips/blob/main/Autorelease/Autorelease.md)
+* [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
+* [Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/Reference%20Counting/ReferenceCounting.md)
 
 ## Data Structures
 * [Graph](https://github.com/YIshihara11201/iOSTips/blob/main/Graph/Graph.md)
