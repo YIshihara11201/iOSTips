@@ -1,8 +1,10 @@
 # Grand Central Dispatch
 This article is a key-points note for  
 
-"Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks, 
-by Kazuki Sakamoto, Tomohiko Furumoto, Apress, April 25 2012."
+"Pro Multithreading and Memory Management for iOS and OS X: with ARC, Grand Central Dispatch, and Blocks,   
+by Kazuki Sakamoto, Tomohiko Furumoto, Apress, April 25 2012."  
+
+<br>
 
 ## What is GCD?
 GCD is a technology to make multithreading programming elegant and simple.  
