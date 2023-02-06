@@ -3,6 +3,7 @@
 ## Swift Basics
 
 * [Automatic Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
+* [Autorelease](https://github.com/YIshihara11201/iOSTips/blob/main/Autorelease/Autorelease.md)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
 * [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Modern%20Concurrency/ModernConcurrency.md)
