@@ -36,9 +36,7 @@
 * [MVVM](https://github.com/YIshihara11201/iOSTips/blob/main/MVVM/MVVM.md)
 
 ## Frameworks
-
 * [ActivityKit](https://github.com/YIshihara11201/iOSTips/blob/main/ActivityKit/ActivityKit.md)
-* [Cocoa Touch](https://github.com/YIshihara11201/iOSTips/tree/main/Cocoa%20Touch)
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
 * [User Notifications](https://github.com/YIshihara11201/iOSTips/blob/main/User%20Notifications/UserNotifications.md)
 * [XCTest](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest.md)
