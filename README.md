@@ -1,9 +1,9 @@
 # iOS learning notes
 
 ## Swift Basics
-
+* [Actor](https://github.com/YIshihara11201/iOSTips/tree/main/Actor)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
-* [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Modern%20Concurrency/ModernConcurrency.md)
+* [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/edit/main/Structured%20Concurrency/StructuredConcurrency.md)
 * [NSRunLoop]
 * [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
