@@ -9,6 +9,7 @@
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Modern%20Concurrency/ModernConcurrency.md)
 * [NSRunLoop]
 * [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
+* [Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/Reference%20Counting/ReferenceCounting.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
 * [URLSession](https://github.com/YIshihara11201/iOSTips/tree/main/URLSession/URLSession.md)
 * [UUID](https://github.com/YIshihara11201/iOSTips/blob/main/UUID/UUID.md)
