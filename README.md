@@ -2,7 +2,7 @@
 
 ## Swift Basics
 
-* [ARC](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
+* [Automatic Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/ARC/ARC.md)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
 * [Grand Central Dispatch](https://github.com/YIshihara11201/iOSTips/blob/main/GCD/GCD.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/blob/main/Modern%20Concurrency/ModernConcurrency.md)
@@ -34,11 +34,9 @@
 ## Frameworks
 
 * [ActivityKit](https://github.com/YIshihara11201/iOSTips/blob/main/ActivityKit/ActivityKit.md)
-* [Background Tasks](https://github.com/YIshihara11201/iOSTips/blob/main/Background%20Tasks/BackgroundTasks.md)
 * [Cocoa Touch](https://github.com/YIshihara11201/iOSTips/tree/main/Cocoa%20Touch)
 * [SwiftUI](https://github.com/YIshihara11201/iOSTips/blob/main/SwiftUI/SwiftUI.md)
 * [User Notifications](https://github.com/YIshihara11201/iOSTips/blob/main/User%20Notifications/UserNotifications.md)
-* WebKit JS - To be added
 * [XCTest](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest.md)
 
 ## APIs
