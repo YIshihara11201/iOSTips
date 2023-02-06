@@ -120,6 +120,9 @@ Compiler manages autoreleasepool so that reference count is consistent when pool
 ## Property
 With ARC, new modifiers are introduced for the Objective-C class property as follows.  
 Assigning to a property is the same as assigning to a variable with a corresponding ownership qualifier. 
+```objc
+@property (nonatomic, strong) NSString *name;
+```
 
 *Property modifier - Ownership qualifier*  
 <img width="630" alt="Property" src="https://user-images.githubusercontent.com/98417271/217081844-dd026abd-54a2-4422-a9d5-6df41df67d1c.png">
