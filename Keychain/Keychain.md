@@ -14,7 +14,7 @@ https://developer.apple.com/documentation/security/keychain_services/keychain_it
 
 ## Item Class Keys and Values
 Keychain items come in a variety of classes according to the kind of data they hold, such as passwords, cryptographic keys, and certificates. The item's class dictates which attributes apply and enables the system to decide whether or not the data should be encrypted on disk. For example, passwords require encryption, but certificates don't because they are not secret.  
-You will specify a class like `kSecClass as String: kSecClassGenericPassword`
+You will specify a class inside a query dictionary like `[kSecClass as String: kSecClassGenericPassword]`
 
 
 ## APIs
