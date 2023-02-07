@@ -7,7 +7,7 @@
 * [Key Paths]
 * [Memory Management Of Reference Types]
 * [NSRunLoop]
-* [Offline Storage](https://github.com/YIshihara11201/iOSTips/blob/main/Offline%20Storage/OfflineStorage.md)
+* [Offline Storage]
 * [Sendable](https://github.com/YIshihara11201/iOSTips/blob/main/Sendable/Senable.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/edit/main/Structured%20Concurrency/StructuredConcurrency.md)
 * [Subarray](https://github.com/YIshihara11201/iOSTips/blob/main/Subarray/Subarray.md)
@@ -21,7 +21,7 @@
 * [Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/Reference%20Counting/ReferenceCounting.md)
 
 ## Data Structures
-* [Graph]()
+* [Graph]
 * [Queue](https://github.com/YIshihara11201/iOSTips/blob/main/Queue/Queue.md)
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
 
@@ -29,11 +29,11 @@
 * [Flood Fill](https://github.com/YIshihara11201/iOSTips/blob/main/Flood%20Fill/FloodFill.md)
 
 ## Design Patterns
-* [Adapter Pattern]()
-* [Composite Pattern]()
-* [Delegate Pattern]()
-* [Factory Pattern]()
-* [Observer Pattern]()
+* [Adapter Pattern]
+* [Composite Pattern]
+* [Delegate Pattern]
+* [Factory Pattern]
+* [Observer Pattern]
 
 ## Architectures
 * [MVC](https://github.com/YIshihara11201/iOSTips/tree/main/MVC/MVC.md)
@@ -46,7 +46,7 @@
 * [XCTest](https://github.com/YIshihara11201/iOSTips/blob/main/XCTest/XCTest.md)
 
 ## APIs
-* [Keychains](https://github.com/YIshihara11201/iOSTips/blob/main/Keychain/Keychain.md)
+* [Keychains]
 
 ## Server-side
-* [Vapor](https://github.com/YIshihara11201/iOSTips/blob/main/Vapor/Vapor.md)
+* [Vapor]
