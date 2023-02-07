@@ -1,5 +1,7 @@
 # Memory Management Of Reference Types
 
+This is keypoint note for "iOS 15 Programming Fundamentals with Swift, by Matt Neuburg, Released October 2021"
+
 When two object referes to (owns) each othre, Reference Cycle occurs.  
 And to avoid this problem, There are two quealifiers `weak`, and `unowned`.
 
