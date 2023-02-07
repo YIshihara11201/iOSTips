@@ -3,10 +3,11 @@
 reference: https://tech.amefure.com/swift-file-manager
 
 ## Sandbox structure
-The iOS file system uses a sandbox structure.
-The sandbox structure is a virtual area called a sandbox that is isolated from the outside world, and operations and operations are allowed only within the sandbox. This structure prevents malicious access and operation of important external programs.
-Installed iOS apps are stored and operated in the sandbox. Saved data is also stored in the sandbox and will be deleted when uninstalled.
-When saving files in the iOS app, they are also saved in the directory determined in the sandbox.
+The iOS file system uses a sandbox structure.  
+The sandbox structure is a virtual area called a sandbox that is isolated from the outside world, and operations and operations are allowed only within the sandbox.  
+This structure prevents malicious access and operation of important external programs.  
+Installed iOS apps are stored and operated in the sandbox. Saved data is also stored in the sandbox and will be deleted when uninstalled.  
+When saving files in the iOS app, they are also saved in the directory determined in the sandbox.  
 
 ## Referable directories
 <img width="486" alt="FileSystemDirectory" src="https://user-images.githubusercontent.com/98417271/217349603-cb6dcf22-e51c-4db8-96d3-2e9fd09c002c.png">
