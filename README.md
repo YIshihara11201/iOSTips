@@ -5,7 +5,7 @@
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
 * [Hashable](https://github.com/YIshihara11201/iOSTips/blob/main/Hashable/Hashable.md)
 * [Key Paths](https://github.com/YIshihara11201/iOSTips/blob/main/Key%20Paths/KeyPaths.md)
-* [Memory Management Of Reference Types]
+* [Memory Management Of Reference Types](https://github.com/YIshihara11201/iOSTips/blob/main/Memory%20Management%20Of%20Reference%20Types/MemoryManagementOfReferenceTypes.md)
 * [Offline Storage]
 * [Sendable](https://github.com/YIshihara11201/iOSTips/blob/main/Sendable/Senable.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/edit/main/Structured%20Concurrency/StructuredConcurrency.md)
