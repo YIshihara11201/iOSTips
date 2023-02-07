@@ -3,8 +3,8 @@
 ## Swift Basics
 * [Actor](https://github.com/YIshihara11201/iOSTips/tree/main/Actor/Actor.md)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
-* [Hashable]
-* [Key Paths]
+* [Hashable](https://github.com/YIshihara11201/iOSTips/blob/main/Hashable/Hashable.md)
+* [Key Paths](https://github.com/YIshihara11201/iOSTips/blob/main/Key%20Paths/KeyPaths.md)
 * [Memory Management Of Reference Types]
 * [Offline Storage]
 * [Sendable](https://github.com/YIshihara11201/iOSTips/blob/main/Sendable/Senable.md)
