@@ -76,10 +76,9 @@ class Act {
 }
 
 class ExampleVC: UIViewController {
-
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    Act.doSomething()
+    Act.shared.doSomething()
   }
   
 }
@@ -104,13 +103,19 @@ class Act {
   func doSomething() {}
 }
 
+// extract singleton to method for later overriding
+class ExampleVC: UIViewController {
+  func act() -> Act { Act.shared }
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    Act.shared.doSomething()
+  }
+}
 
 class TestableOverrideVC: ExampleVC {
-  
   override func act() -> Act {
     Act()
   }
-	
 }
 
 class OverrideVCTests: XCTestCase {
