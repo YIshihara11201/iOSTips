@@ -69,3 +69,8 @@ func fetchManyURLs() async throws -> [URL:Data] {
   } 
 }
 ```
+
+<br>
+
+## How to avoid Data Inconsistency?
+Check [Actor](https://github.com/YIshihara11201/iOSTips/blob/main/Actor/Actor.md) page
