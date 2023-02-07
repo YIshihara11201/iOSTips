@@ -1,4 +1,5 @@
 # Sendable
+This is keypoint note for "iOS 15 Programming Fundamentals with Swift, by Matt Neuburg, Released October 2021". 
 
 Sendable is a protocol that ensures types conforms to it are safe to share across threads.
 
