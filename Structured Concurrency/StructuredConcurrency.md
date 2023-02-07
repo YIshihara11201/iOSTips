@@ -1,14 +1,19 @@
 # Structured Concurrency
+This is keypoint note for 
+"iOS 15 Programming Fundamentals with Swift, by Matt Neuburg, Released October 2021"  
+<br>
 Structured Concurrency is Swift language feature to manage concurrency.
+<br>
 
 ## Relationship between "Concurrency" and "Asynchronous" 
 In Structured Concurrency, using await keyword, function invocation waits until the function returns, and this is what asynchronos is.  
-While the function is running, another functions can also be invoked without waiting for the completion of prior method. This means multiple tasks can run simultaneously, which is the concurrency.
+While the function is running, another functions can also be invoked without waiting for the completion of prior method.  
+This means multiple tasks can run simultaneously, which is the concurrency.
 
 ## Task
 Async function can be called only from within Tasks.  
 Tasks are one of the atoms of structured concurrency — meaning that a task itself has no concurrency.  
-While a task is running on one thread, that same task cannot be running simultaneously on another thread. 
+While a task is running on one thread, that same task cannot be running simultaneously on another thread.  
 But two different tasks can run concurrently; and if a task doesn’t run on the main thread, it can run concurrently with the main thread.  
 
 ## Multiple Concurrent Tasks
