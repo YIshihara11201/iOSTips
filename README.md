@@ -21,7 +21,7 @@
 * [Reference Counting](https://github.com/YIshihara11201/iOSTips/blob/main/Reference%20Counting/ReferenceCounting.md)
 
 ## Data Structures
-* [Graph](https://github.com/YIshihara11201/iOSTips/blob/main/Graph/Graph.md)
+* [Graph]()
 * [Queue](https://github.com/YIshihara11201/iOSTips/blob/main/Queue/Queue.md)
 * [Stack](https://github.com/YIshihara11201/iOSTips/blob/main/Stack/Stack.md)
 
@@ -29,11 +29,11 @@
 * [Flood Fill](https://github.com/YIshihara11201/iOSTips/blob/main/Flood%20Fill/FloodFill.md)
 
 ## Design Patterns
-* [Adapter Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
-* Composite Pattern - To be added
-* [Factory Pattern](https://github.com/YIshihara11201/iOS/blob/main/Factory%20Pattern/FactoryPattern.md)
-* [Observer Pattern](https://github.com/YIshihara11201/iOSTips/tree/main/Observer%20Pattern)
-* Strategy Pattern - To be added
+* [Adapter Pattern]()
+* [Composite Pattern]()
+* [Delegate Pattern]()
+* [Factory Pattern]()
+* [Observer Pattern]()
 
 ## Architectures
 * [MVC](https://github.com/YIshihara11201/iOSTips/tree/main/MVC/MVC.md)
