@@ -6,7 +6,6 @@
 * [Hashable]
 * [Key Paths]
 * [Memory Management Of Reference Types]
-* [NSRunLoop]
 * [Offline Storage]
 * [Sendable](https://github.com/YIshihara11201/iOSTips/blob/main/Sendable/Senable.md)
 * [Structured Concurrency](https://github.com/YIshihara11201/iOSTips/edit/main/Structured%20Concurrency/StructuredConcurrency.md)
