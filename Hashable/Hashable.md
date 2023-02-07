@@ -1,5 +1,7 @@
 # Hashable
+This is keypoint note for "iOS 15 Programming Fundamentals with Swift, by Matt Neuburg, Released October 2021". 
 
+## What is Hashable
 Type must be Hashable to be used in a Set or as the key type of a Dictionary.  
 A struct whose properties are all Hashable, or an enum whose associated values are all Hashable, can conform to Hashable merely by declaring that it adopts Hashable.
 
