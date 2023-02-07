@@ -1,5 +1,6 @@
 # Key Paths
-Key Paths are a way of storing a reference to a property without actually accessing the property. 
+Key Paths are a way of storing a reference to a property without actually accessing the property.  
+["iOS 15 Programming Fundamentals with Swift, by Matt Neuburg, Released October 2021"]
 
 ```swift
 struct Person {
