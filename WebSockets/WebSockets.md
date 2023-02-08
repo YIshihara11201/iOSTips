@@ -3,7 +3,7 @@
 A WebSocket is a network protocol that allows two-way communication between a server and client.  
 Unlike HTTP, which uses a request and response pattern, WebSocket peers can send messages in either direction at any point in time.
 
-[Server side implementation]()
+[Server side implementation](https://github.com/YIshihara11201/iOSTips/blob/main/WebSockets/WebSockets.md)
 
 ## Start Websocket communication
 ```swift
