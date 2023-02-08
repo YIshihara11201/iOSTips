@@ -1,5 +1,10 @@
 # WebSockets
 
+A WebSocket is a network protocol that allows two-way communication between a server and client.  
+Unlike HTTP, which uses a request and response pattern, WebSocket peers can send messages in either direction at any point in time.
+
+[Server side implementation]()
+
 ## Start Websocket communication
 ```swift
 let session = URLSession(configuration: .default)
