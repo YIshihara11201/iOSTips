@@ -33,6 +33,7 @@
 * [Delegate Pattern]
 * [Factory Pattern]
 * [Observer Pattern]
+* [Strategy Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Strategy%20Pattern/StrategyPattern.md)
 
 ## Architectures
 * [MVC]
