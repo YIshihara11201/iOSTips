@@ -16,7 +16,8 @@ Problems
 - All subclasses must implement behaviour defined in the Abstract class
 - A subclass that can't perform a behaviour must implement the behaviours defined in the Abstract class
 
-**In case you extract Duck behaviours into interface and make each concrete Duck object implement the interface**
+**In case you extract Duck behaviours into interface and make each concrete Duck object implement the interface**  
+
 Problems  
 - When multiple duck object behave in a same manner, for each of them you must duplicate the behaviour.
 
