@@ -29,7 +29,6 @@
 
 ## Design Patterns
 * [Adapter Pattern]
-* [Composite Pattern]
 * [Delegate Pattern]
 * [Factory Pattern]
 * [Observer Pattern]
