@@ -10,16 +10,11 @@ The Strategy Pattern defines a family of algorithms, encapsulates each one, and 
 Strategy lets the algorithm vary independently from clients that use it.
 
 ## Example Of Duck
-**In case abstruct Duck class implements its behaviour inside the class**
-
-Problems  
-- All subclasses must implement behaviour defined in the Abstract class
-- A subclass that can't perform a behaviour must implement the behaviours defined in the Abstract class
-
+**In case abstruct Duck class implements its behaviour inside the class**  
 **In case you extract Duck behaviours into interface and make each concrete Duck object implement the interface**  
 
 Problems  
-- When multiple duck object behave in a same manner, for each of them you must duplicate the behaviour.
+- When multiple duck object behave in a same manner, for each of them you must duplicate(implement) the behaviour.
 
 
 ### Applying Strategy Pattern
@@ -30,4 +25,5 @@ How?
 
 Merits  
 When some duck objects behave in a same manner, you can reuse a behaviour object that implemented the behaviour interface.  
+Subject of a behaviour does not need to pay attention to concrete type of it.
 You can replace duck behaviour in runtime.  
