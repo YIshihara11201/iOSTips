@@ -3,6 +3,7 @@
 ## Swift Basics
 * [Actor](https://github.com/YIshihara11201/iOSTips/tree/main/Actor/Actor.md)
 * [Closures](https://github.com/YIshihara11201/iOSTips/blob/main/Closures/Closures.md)
+* [Codable]
 * [Hashable](https://github.com/YIshihara11201/iOSTips/blob/main/Hashable/Hashable.md)
 * [Key Paths](https://github.com/YIshihara11201/iOSTips/blob/main/Key%20Paths/KeyPaths.md)
 * [Memory Management Of Reference Types](https://github.com/YIshihara11201/iOSTips/blob/main/Memory%20Management%20Of%20Reference%20Types/MemoryManagementOfReferenceTypes.md)
@@ -29,7 +30,6 @@
 
 ## Design Patterns
 * [Adapter Pattern]
-* [Delegate Pattern]
 * [Factory Pattern]
 * [Observer Pattern]
 * [Strategy Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Strategy%20Pattern/StrategyPattern.md)
