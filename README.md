@@ -30,9 +30,13 @@
 
 ## Design Patterns
 * [Adapter Pattern]
+* [Command Pattern]
+* [Facade Pattern]
 * [Factory Pattern]
 * [Observer Pattern]
+* [Singleton Pattern]
 * [Strategy Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Strategy%20Pattern/StrategyPattern.md)
+* [Template Method Pattern]
 
 ## Architectures
 * [MVC]
