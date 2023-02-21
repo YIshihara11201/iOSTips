@@ -20,4 +20,4 @@ is achieved as the following.
 
 ## Points
 - Factory Method relies on inheritance: object creation is delegated to subclasses, which implement the factory method to create objects.
-- Creator class is written without knowledge of the actual products that will be created
+- Creator class is written without knowledge of the actual products that will be created.  
