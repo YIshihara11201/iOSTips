@@ -33,7 +33,7 @@
 * [Command Pattern]
 * [Decorator Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Decorator%20Pattern/DecoratorPattern.md)
 * [Facade Pattern]
-* [Factory Pattern]
+* [Factory Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Factory%20Pattern/FactoryPattern.md)
 * [Observer Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Observer%20Pattern/ObserverPattern.md)
 * [Singleton Pattern]
 * [Strategy Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Strategy%20Pattern/StrategyPattern.md)
