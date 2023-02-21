@@ -27,3 +27,5 @@ Merits
 When some duck objects behave in a same manner, you can reuse a behaviour object that implemented the behaviour interface.  
 Subject of a behaviour does not need to pay attention to concrete type of it.
 You can replace duck behaviour in runtime.  
+
+![class_diagram](https://user-images.githubusercontent.com/98417271/220272159-4dd5ebb1-45c0-4ea6-a633-2fecff8a6d34.png)
