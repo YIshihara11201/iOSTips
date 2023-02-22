@@ -30,7 +30,7 @@
 
 ## Design Patterns
 * [Adapter Pattern]
-* [Command Pattern]
+* [Command Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Command%20Pattern/CommandPattern.md)
 * [Decorator Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Decorator%20Pattern/DecoratorPattern.md)
 * [Facade Pattern]
 * [Factory Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Factory%20Pattern/FactoryPattern.md)
