@@ -29,16 +29,17 @@
 * [Flood Fill](https://github.com/YIshihara11201/iOSTips/blob/main/Flood%20Fill/FloodFill.md)
 
 ## Design Patterns
-* [Adapter Pattern]
+* [Adapter Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
 * [Command Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Command%20Pattern/CommandPattern.md)
+* [Composite Pattern]
 * [Decorator Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Decorator%20Pattern/DecoratorPattern.md)
-* [Facade Pattern]
+* [Facade Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Facade%20Pattern/FacadePattern.md)
 * [Factory Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Factory%20Pattern/FactoryPattern.md)
 * [Observer Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Observer%20Pattern/ObserverPattern.md)
 * [Singleton Pattern]
 * [State Pattern]
 * [Strategy Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Strategy%20Pattern/StrategyPattern.md)
-* [Template Method Pattern]
+* [Template Method Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Template%20Method%20Pattern/TemplateMethodPattern.md)
 
 ## Architectures
 * [MVC]
