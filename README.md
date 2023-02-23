@@ -31,7 +31,7 @@
 ## Design Patterns
 * [Adapter Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Adapter%20Pattern/AdapterPattern.md)
 * [Command Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Command%20Pattern/CommandPattern.md)
-* [Composite Pattern]
+* [Composite Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Composite%20Pattern/CompositePattern.md)
 * [Decorator Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Decorator%20Pattern/DecoratorPattern.md)
 * [Facade Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Facade%20Pattern/FacadePattern.md)
 * [Factory Pattern](https://github.com/YIshihara11201/iOSTips/blob/main/Factory%20Pattern/FactoryPattern.md)
