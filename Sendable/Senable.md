@@ -20,4 +20,4 @@ func test() async {
    // ...
 }
 ```
-In above code, if multiple tasks call tests function, they will have the reference to a dog object, which can lead to data racing.
+In above code, if multiple tasks call tests function, they will have the reference to the dog object, which can lead to data racing.
