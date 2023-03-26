@@ -6,7 +6,7 @@ The concept is, while somebody is using an object, keep it, otherwise release it
 Reference counting consists of the following 4 rules.  
 1. You have ownership of any objects you `create`.
 2. You can take ownership of an object using `retain`. 
-3. When no longer needed, you must `relinquish` of ownership of an object you own.
+3. When no longer needed, you must `relinquish` ownership of an object you own.
 4. You must not relinquish ownership of an object you don’t own.     
 
 `create`, `retain` `relinquish`, and `dispose` are keywords in reference counting.
